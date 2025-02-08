@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chocolate-chip-cookies",
+    "title": "Classic Chocolate Chip Cookies",
+    "shortDescription": "Soft, chewy, and loaded with chocolate chips!",
+    "description": "Learn how to make the perfect chocolate chip cookies that are soft on the inside and crispy on the edges. These cookies are loaded with chocolate chips and have a rich, buttery flavor.",
+    "thumbnail": "/placeholder.svg?height=225&width=400",
+    "youtubeId": "dQw4w9WgXcQ",
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "2 cups semi-sweet chocolate chips"
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C) and line a baking sheet with parchment paper.",
+      "In a medium bowl, whisk together the flour, baking soda, and salt. Set aside.",
+      "In a large bowl, cream together the softened butter, granulated sugar, and brown sugar until light and fluffy.",
+      "Beat in the eggs one at a time, then stir in the vanilla extract.",
+      "Gradually mix in the dry ingredients until just blended.",
+      "Fold in the chocolate chips.",
+      "Drop rounded tablespoons of the dough onto the prepared baking sheet, about 2 inches apart.",
+      "Bake for 9-11 minutes or until golden brown around the edges.",
+      "Allow the cookies to cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely."
+    ]
+  },
+  {
+    "id": "red-velvet-cake",
+    "title": "Moist Red Velvet Cake",
+    "shortDescription": "A classic red velvet cake with cream cheese frosting.",
+    "description": "Discover the secrets to making a perfectly moist and flavorful red velvet cake. This recipe features a tender crumb with a hint of cocoa, topped with a rich cream cheese frosting.",
+    "thumbnail": "/placeholder.svg?height=225&width=400",
+    "youtubeId": "dQw4w9WgXcQ",
+    "ingredients": [
+      "2 1/2 cups all-purpose flour",
+      "1 1/2 cups granulated sugar",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "2 tbsp cocoa powder",
+      "1 1/2 cups vegetable oil",
+      "1 cup buttermilk",
+      "2 large eggs",
+      "2 tbsp red food coloring",
+      "1 tsp white vinegar",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F (175°C) and grease two 9-inch round cake pans.",
+      "In a medium bowl, whisk together flour, sugar, baking soda, salt, and cocoa powder.",
+      "In a large bowl, beat together the oil, buttermilk, eggs, food coloring, vinegar, and vanilla extract.",
+      "Gradually mix the dry ingredients into the wet ingredients until just combined.",
+      "Divide the batter evenly between the prepared cake pans.",
+      "Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.",
+      "Allow the cakes to cool in the pans for 10 minutes, then remove from pans and cool completely on a wire rack.",
+      "Once cooled, frost with cream cheese frosting and serve."
+    ]
+  }
+]
+
