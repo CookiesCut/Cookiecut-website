@@ -6,8 +6,8 @@ import Image from "next/image"
 export default async function Home() {
   const recipes = await getRecipes()
   return (
-    <div className="space-y-8">
-      <section className="text-center flex flex-col justify-center items-center bg-gradient-to-b from-[#E0D8CB] to-white p-10 rounded-xl">
+    <div className="space-y-8 bg-gradient-to-b from-[#E0D8CB] to-white p-10 rounded-xl">
+      <section className="text-center flex flex-col justify-center items-center gap-7">
           <Image 
             className="rounded-full"
             src={"/cookieCut-Logo.jpg"}
@@ -40,7 +40,7 @@ export default async function Home() {
           </Link>
       </section>
 
-      <section>
+      <section className="container w-full m-auto">
         <h2 className="text-3xl font-semibold mb-6">Our Recipes</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {recipes.map((recipe) => (
