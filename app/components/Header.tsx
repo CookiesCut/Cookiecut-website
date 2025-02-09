@@ -7,7 +7,7 @@ export default function Header() {
     <header className="bg-amber-800">
       <nav className="container mx-auto px-4 py-2 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold text-[#ff9d00] hover:text-[#ffc971]">
-          Subscribe For Cookie ❤️
+          Subscribe For Cookie 
         </Link>
         <Image 
           className="rounded-full"

@@ -6,15 +6,15 @@ import Image from "next/image"
 export default async function Home() {
   const recipes = await getRecipes()
   return (
-    <div className="space-y-8 bg-gradient-to-b from-[#E0D8CB] to-white p-10 rounded-xl">
+    <div className="space-y-8 bg-gradient-to-b from-[#E0D8CB] to-white p-10 rounded-3xl">
       <section className="text-center flex flex-col justify-center items-center gap-7">
           <Image 
-            className="rounded-full"
+            className="rounded-full md:w-56"
             src={"/cookieCut-Logo.jpg"}
-            width={250}
-            height={250}
+            width={172}
+            height={172}
             alt="logo"/>
-          <h1 className="text-5xl font-extrabold bg-gradient-to-r from-[#ffc971] to-[#ff9d00] bg-clip-text text-transparent md:text-7xl">Welcome to Cookie Cut</h1>
+          <h1 className="text-4xl md:5xl font-extrabold bg-gradient-to-r from-[#ffc971] to-[#ff9d00] bg-clip-text text-transparent md:text-7xl">Welcome to Cookie Cut</h1>
           <p className="text-xl mb-4">Discover delicious cookie and cake recipes from our YouTube channel!</p>
           <div className="flex justify-center items-center font-bold text-xl gap-10 m-5">
             <span>
@@ -34,7 +34,7 @@ export default async function Home() {
             href="https://www.youtube.com/@CookiesCut"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 transition-colors"
+            className="inline-block bg-red-600 text-white px-6 py-4 rounded-full hover:bg-red-700 transition-colors"
           >
             Visit our YouTube Channel
           </Link>

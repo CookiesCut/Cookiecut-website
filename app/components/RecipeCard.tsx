@@ -5,7 +5,7 @@ import type { Recipe } from "../../types/recipe"
 export default function RecipeCard({ recipe }: { recipe: Recipe }) {
   return (
     <Link href={`/recipe/${recipe.id}`} className="block">
-      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+      <div className="bg-white rounded-3xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
         <Image
           src={recipe.thumbnail || "/placeholder.svg"}
           alt={recipe.title}
