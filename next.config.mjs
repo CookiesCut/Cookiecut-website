@@ -6,7 +6,6 @@ try {
 }
 
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -22,8 +21,6 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  assetPrefix: isProd ? '/Cookiecut-website/' : '',
-  basePath: isProd ? '/Cookiecut-website' : '',
   output: 'export'
 }
 
