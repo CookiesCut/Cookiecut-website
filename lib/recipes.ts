@@ -10,3 +10,10 @@ export async function getRecipe(id: string): Promise<Recipe | undefined> {
   return recipes.find((recipe) => recipe.id === id)
 }
 
+export async function getAllRecipeIds() {
+  return [
+    "chocolate-cake",
+    "vanilla-cupcake",
+    "strawberry-pie",
+  ];
+}

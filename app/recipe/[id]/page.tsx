@@ -1,11 +1,16 @@
-import { getRecipe } from "../../../lib/recipes"
-import { notFound } from "next/navigation"
+import { getRecipe, getAllRecipeIds } from "../../../lib/recipes";
+import { notFound } from "next/navigation";
+
+export async function generateStaticParams() {
+  const recipeIds = await getAllRecipeIds(); // Fetch all available recipe IDs
+  return recipeIds.map((id) => ({ id }));
+}
 
 export default async function RecipePage({ params }: { params: { id: string } }) {
-  const recipe = await getRecipe(params.id)
+  const recipe = await getRecipe(params.id);
 
   if (!recipe) {
-    notFound()
+    notFound();
   }
 
   return (
@@ -18,7 +23,7 @@ export default async function RecipePage({ params }: { params: { id: string } })
           title="YouTube video player" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin" allowFullScreen
-          ></iframe>
+        ></iframe>
       </div>
       <p className="text-gray-200 mb-6">{recipe.description}</p>
       <div className="bg-white rounded-3xl shadow-md p-6">
@@ -39,6 +44,5 @@ export default async function RecipePage({ params }: { params: { id: string } })
         </ol>
       </div>
     </div>
-  )
+  );
 }
-
