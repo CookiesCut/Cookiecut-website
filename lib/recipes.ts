@@ -1,9 +1,7 @@
 import type { Recipe } from "../types/recipe";
 
 export async function getRecipes(): Promise<Recipe[]> {
-  const res = await fetch(`/api/recipes`, {
-    cache: "no-store",
-  });
+  const res = await fetch(`/api/recipes`, { cache: "no-store" });
 
   if (!res.ok) {
     throw new Error("Failed to fetch recipes");
