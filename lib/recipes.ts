@@ -1,8 +1,8 @@
 import type { Recipe } from "../types/recipe";
 
 export async function getRecipes(): Promise<Recipe[]> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/recipes`, {
-    cache: "no-store", // Ensures fresh data
+  const res = await fetch(`/api/recipes`, {
+    cache: "no-store",
   });
 
   if (!res.ok) {
