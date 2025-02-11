@@ -1,8 +1,8 @@
 import "./globals.css"
 import type React from "react"
 import { Inter } from "next/font/google"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { rootMetadata } from "@/lib/root-metadata"
 

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { getRecipes } from "../lib/recipes"
-import RecipeCard from "./components/RecipeCard"
+import RecipeCard from "../components/RecipeCard"
 import Image from "next/image"
 
 export default async function Home() {

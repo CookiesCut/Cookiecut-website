@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import type { Recipe } from "../../types/recipe"
+import type { Recipe } from "../types/recipe"
 
 export default function RecipeCard({ recipe }: { recipe: Recipe }) {
   return (
