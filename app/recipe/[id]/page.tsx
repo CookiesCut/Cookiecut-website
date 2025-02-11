@@ -34,14 +34,20 @@ export default async function RecipePage({ params }: { params: { id: string } })
             <li key={index}>{ingredient}</li>
           ))}
         </ul>
-        <h3 className="text-xl font-semibold mb-2">Instructions:</h3>
+        <h3 className="text-xl font-semibold mb-2">{recipe.instructions ? "Instructions:" : ""}</h3>
         <ol className="list-decimal list-inside">
-          {recipe.instructions.map((instruction, index) => (
+          {recipe.instructions && recipe.instructions.map((instruction, index) => (
             <li key={index} className="mb-2">
               {instruction}
             </li>
           ))}
         </ol>
+        <p className="mt-10">{recipe.support}</p>
+        {recipe.keywords.map((keyword, index) => (
+          <p key={index} className="p-1.5 mr-2 mt-1 bg-amber-500 rounded-full text-xs inline-block">
+            {keyword}
+          </p>
+        ))}
       </div>
     </div>
   );

@@ -6,6 +6,8 @@ export interface Recipe {
   thumbnail: string
   youtubeId: string
   ingredients: string[]
-  instructions: string[]
+  instructions: string[] | null
+  support: string
+  keywords: string[]
 }
 

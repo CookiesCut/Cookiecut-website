@@ -14,8 +14,8 @@ export default function RecipeCard({ recipe }: { recipe: Recipe }) {
           className="w-full h-48 object-cover"
         />
         <div className="p-4">
-          <h3 className="text-xl font-semibold mb-2">{recipe.title}</h3>
-          <p className="text-gray-600">{recipe.shortDescription}</p>
+          <h3 className="truncate text-xl font-semibold mb-2">{recipe.title}</h3>
+          <p className="truncate text-gray-600">{recipe.shortDescription}</p>
         </div>
       </div>
     </Link>
