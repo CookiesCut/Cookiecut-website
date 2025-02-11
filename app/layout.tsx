@@ -1,8 +1,9 @@
 import "./globals.css"
+import type React from "react"
 import { Inter } from "next/font/google"
 import Header from "./components/Header"
-import type React from "react" // Added import for React
 import Footer from "./components/Footer"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -16,8 +17,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const gaId: string = process.env.GOOGLE_SEARCH_CONSOLE || "G-BZRYXRH8HW";
   return (
     <html lang="en">
+      <GoogleAnalytics gaId={gaId} />
       <body className={`${inter.className} `}>
         <Header />
         <main className="mx-auto px-2 py-3 bg-amber-800">{children}</main>
