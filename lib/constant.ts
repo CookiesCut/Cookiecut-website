@@ -6,7 +6,6 @@ export const myShortDesc = "Discover the best cake and cookie recipes for every 
 
 export const defaultTitle = myTitle + separator + myShortDesc;
 
-const desc1 = "test1";
-const desc2 = "test2";
-const desc3 = "test3";
-export const defaultDescription = desc1 + " " + desc2 + " " + desc3;
+const desc = "Explore a world of delicious cakes, cookies, and desserts with our easy-to-follow recipes. From classic bakes to creative sweets, find your next favorite treat today!";
+
+export const defaultDescription = desc
