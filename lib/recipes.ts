@@ -12,8 +12,9 @@ export async function getRecipe(id: string): Promise<Recipe | undefined> {
 
 export async function getAllRecipeIds() {
   return [
-    "chocolate-cake",
-    "vanilla-cupcake",
-    "strawberry-pie",
+    "chocolate-chip-cookies",
+    "red-velvet-cake",
+    "cheesecake-snickers",
+    "chocolate-mousse-cake",
   ];
 }
