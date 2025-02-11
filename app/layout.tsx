@@ -4,13 +4,11 @@ import { Inter } from "next/font/google"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { rootMetadata } from "@/lib/root-metadata"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "CookiesCut - Delicious Cookie and Cake Recipes",
-  description: "Learn how to bake amazing cookies and cakes with CookiesCut YouTube channel",
-}
+export const metadata = rootMetadata;
 
 export default function RootLayout({
   children,
