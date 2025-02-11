@@ -2,7 +2,7 @@ import { getRecipe, getAllRecipeIds } from "../../../lib/recipes";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
-  const recipeIds = await getAllRecipeIds(); // Fetch all available recipe IDs
+  const recipeIds = await getAllRecipeIds();
   return recipeIds.map((id) => ({ id }));
 }
 
