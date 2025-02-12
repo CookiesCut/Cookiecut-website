@@ -14,7 +14,7 @@ export default async function RecipePage({ params }: { params: { id: string } })
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl mx-auto ">
       <h1 className="text-3xl font-bold mb-4 text-amber-500">{recipe.title}</h1>
       <div className="aspect-w-16 aspect-h-9 mb-6">
         <iframe 
@@ -26,7 +26,7 @@ export default async function RecipePage({ params }: { params: { id: string } })
         ></iframe>
       </div>
       <p className="text-gray-200 mb-6">{recipe.description}</p>
-      <div className="bg-white rounded-3xl shadow-md p-6">
+      <div className="rounded-3xl shadow-md p-6 bg-gradient-to-b from-[#E0D8CB] to-white">
         <h2 className="text-2xl font-semibold mb-4">Recipe</h2>
         <h3 className="text-xl font-semibold mb-2">Ingredients:</h3>
         <ul className="list-disc list-inside mb-4">

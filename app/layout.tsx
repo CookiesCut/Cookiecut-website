@@ -17,11 +17,11 @@ export default function RootLayout({
 }) {
   const gaId: string = process.env.GOOGLE_SEARCH_CONSOLE || "G-BZRYXRH8HW";
   return (
-    <html lang="en">
+    <html lang="en" dir="ltr" className="h-full bg-amber-950">
       <GoogleAnalytics gaId={gaId} />
       <body className={`${inter.className} `}>
         <Header />
-        <main className="mx-auto px-2 py-3 bg-amber-800">{children}</main>
+        <main className="mx-auto px-2 py-3 bg-amber-950">{children}</main>
         <Footer />
       </body>
     </html>

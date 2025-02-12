@@ -4,7 +4,7 @@ import RecipeCard from "../components/RecipeCard"
 import Image from "next/image"
 
 export default async function Home() {
-  const recipes = await getRecipes()
+  const recipes = await getRecipes()  
   return (
     <div className="space-y-8 bg-gradient-to-b from-[#E0D8CB] to-white p-10 rounded-3xl">
       <section className="text-center flex flex-col justify-center items-center gap-7">
