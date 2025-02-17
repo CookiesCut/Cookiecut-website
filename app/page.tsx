@@ -14,7 +14,7 @@ export default async function Home() {
             width={172}
             height={172}
             alt="logo"/>
-          <h1 className="text-4xl md:5xl font-extrabold bg-gradient-to-r from-[#ffc971] to-[#ff9d00] bg-clip-text text-transparent md:text-7xl">Welcome to Cookie Cut</h1>
+          <h1 className="text-4xl md:5xl font-extrabold bg-gradient-to-r from-[#ffc971] to-[#ff9d00] bg-clip-text text-transparent md:text-7xl">Cookie Cut</h1>
           <p className="text-xl mb-4">Discover delicious cookie and cake recipes from our YouTube channel!</p>
           <div className="flex justify-center items-center font-bold text-xl gap-10 m-5">
             <span>
