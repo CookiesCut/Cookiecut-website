@@ -1,9 +1,37 @@
 [
   {
+    "id": "san-sebastian-cheesecake",
+    "title": "The Ultimate San Sebastian Cheesecake Recipe | Creamy and gooey easy cheesecake",
+    "shortDescription": "Fall in love with San Sebastian Cheesecake! 🧀✨ This creamy Basque Burnt Cheesecake features a caramelized top and a custard-like center—easy to make and irresistibly delicious!",
+    "description": "Get ready to fall in love with San Sebastian Cheesecake! This rich, creamy delight—also known as Basque Burnt Cheesecake—has no crust and is baked at high heat to create a beautifully caramelized top with a soft, custard-like center. It's super easy to make and absolutely delicious!",
+    "thumbnail": "/thumbnail/san-sebastian-cheesecake.jpg",
+    "youtubeId": "2xGVJy4hOfQ?si=25-v2xPKH0lPJW75",
+    "ingredients": [
+        "Cream cheese 430g",
+        "Sugar 120g",
+        "Flour 20g",
+        "Cream 270g",
+        "Eggs 3",
+        "Vanilla 1tsp"
+      
+      ],
+    "instructions": [
+      "Bake for 35 - 40 minutes at 230°C"
+    ],
+    "support": "Please support the channel by sharing and subscribing❤️",
+    "keywords": [
+      "#SanSebastianCheesecake",
+      "#BasqueCheesecake", 
+      "#CheesecakeRecipe", 
+      "#EasyBaking", 
+      "#HomemadeDessert"
+    ]
+  },
+  {
     "id": "super-moist-chocolate-cake",
     "title": "Super Moist Chocolate Cake 🍫 | Easy Recipe – No Mixer Needed! 🎂",
-    "shortDescription": "Tiramisu cookies – soft, aromatic, and packed with coffee, cocoa, and mascarpone flavors! A delightful treat for coffee and chocolate lovers.",
-    "description": "Indulge in the ultimate moist and rich chocolate cake! 🍫✨ This easy recipe creates a soft, fluffy, and deeply chocolatey cake, perfect for any occasion. Whether you're a beginner or a baking pro, this step-by-step guide will help you make a deliciously moist chocolate cake with a smooth and creamy chocolate mousse topping.",
+    "shortDescription": "Discover the ultimate moist chocolate cake! 🍫✨ This easy recipe creates a rich, fluffy, and chocolatey delight, topped with creamy chocolate mousse. Perfect for beginners and pros alike!",
+    "description": "Indulge in the ultimate moist and rich chocolate cake! This easy recipe creates a soft, fluffy, and deeply chocolatey cake, perfect for any occasion. Whether you're a beginner or a baking pro, this step-by-step guide will help you make a deliciously moist chocolate cake with a smooth and creamy chocolate mousse topping.",
     "thumbnail": "/thumbnail/super-moist-chocolate-cake.jpg",
     "youtubeId": "MNdFDLlE0XU?si=KQ6ttQViGgeedKTv",
     "ingredients": [
